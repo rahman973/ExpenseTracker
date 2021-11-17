@@ -1,5 +1,5 @@
 {
-  "name": "Expense Tracker",
+  "name": "ExpenseTracker",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -8,6 +8,7 @@
   },
   "author": "Abdul Rahman",
   "dependencies": {
+    "@hapi/joi": "^17.1.1",
     "bcryptjs": "^2.4.3",
     "config": "^3.3.6",
     "cookie-parser": "^1.4.6",

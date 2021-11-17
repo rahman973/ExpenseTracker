@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 
-const Expenses = require("../controller/Expenses");
+const Expenses = require("../validation/Expenses");
 const authMiddleware = require("../utils/Auth/Auth");
 
 router.post("/", authMiddleware, Expenses.createExpenses);
